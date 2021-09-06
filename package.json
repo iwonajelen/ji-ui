@@ -1,0 +1,44 @@
+{
+  "name": "ji-ui",
+  "version": "1.0.0",
+  "description": "UI components package",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "storybook": "start-storybook -p 6006",
+    "build-storybook": "build-storybook",
+    "start": "webpack --watch",
+    "build": "webpack"
+  },
+  "author": "Iwona J",
+  "license": "ISC",
+  "dependencies": {
+    "autoprefixer": "^9.0.0",
+    "postcss": "^8.3.6",
+    "postcss-scss": "^4.0.0",
+    "prop-types": "^15.7.2",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "styled-components": "^5.3.1"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.0.0",
+    "@babel/core": "^7.0.0",
+    "@babel/plugin-proposal-object-rest-spread": "^7.0.0",
+    "@babel/plugin-transform-react-jsx": "^7.0.0",
+    "@babel/preset-env": "^7.0.0",
+    "@storybook/addon-actions": "^6.3.7",
+    "@storybook/addon-essentials": "^6.3.7",
+    "@storybook/addon-links": "^6.3.7",
+    "@storybook/addon-postcss": "^2.0.0",
+    "@storybook/react": "^6.3.7",
+    "babel-loader": "^8.2.2",
+    "css-loader": "^6.2.0",
+    "dotenv-webpack": "^7.0.3",
+    "html-webpack-plugin": "^5.3.2",
+    "postcss-loader": "^6.1.1",
+    "style-loader": "^3.2.1",
+    "webpack": "^5.51.1",
+    "webpack-cli": "^4.8.0"
+  }
+}
