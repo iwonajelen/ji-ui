@@ -17,6 +17,6 @@ Primary.args = {
 
 export const Red = Template.bind({});
 Red.args = {
-   color: 'red',
+   color: '#ff2312',
    text: ''
 };
